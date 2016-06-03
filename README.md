@@ -1,3 +1,5 @@
+This is a fork of https://github.com/benetech/logback-ext with the group id changed to benetech.org to help us untangle our dependencies.
+
 Logback Extensions
 ==================
 

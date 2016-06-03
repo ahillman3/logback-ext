@@ -36,9 +36,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/trautonen/logback-ext.git</connection>
-    <developerConnection>scm:git:git://github.com/trautonen/logback-ext.git</developerConnection>
-    <url>https://github.com/trautonen/logback-ext</url>
+    <connection>scm:git:git://github.com/benetech/logback-ext.git</connection>
+    <developerConnection>scm:git:git://github.com/benetech/logback-ext.git</developerConnection>
+    <url>https://github.com/benetech/logback-ext</url>
   </scm>
 
   <properties>
@@ -49,20 +49,6 @@
     <lmax.version>3.3.2</lmax.version>
     <jmh.version>1.10.5</jmh.version>
   </properties>
-
-<build>
- <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.5.1</version>
-        <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
-        </configuration>
-      </plugin>
-    </plugins>
-</build>
 
   <modules>
     <module>logback-ext-core</module>
