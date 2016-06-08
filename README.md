@@ -1,9 +1,8 @@
-This is a fork of https://github.com/benetech/logback-ext with the group id changed to benetech.org to help us untangle our dependencies.
+This is a fork of https://github.com/trautonen/logback-ext with the group id changed to benetech.org to help us untangle our dependencies.
 
 Logback Extensions
 ==================
 
-[![Build Status](https://img.shields.io/travis/trautonen/logback-ext.svg?style=flat-square)](https://travis-ci.org/trautonen/logback-ext)
 ![License](https://img.shields.io/github/license/trautonen/logback-ext.svg?style=flat-square)
 
 Extensions for Logback logging library mainly for appenders aimed for Amazon Web Services,
